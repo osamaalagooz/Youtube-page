@@ -45,6 +45,10 @@ header{
     height: 100%;
     margin-right: 10px;
 }
+.recommended-img{
+    height : 128px;
+    width : 256px;
+}
 .video-player {
     flex-grow: 2;
     background-color: #F1F1F1;
@@ -75,11 +79,19 @@ header{
     background-color: #FFFF;
     height: 20%;
 }
+.description_details{
+    max-width: 512px;
+    
+}
 .comments {
     width: 100%;
     background-color: #FFFF;
     height: 15%;
-}            
+}  
+.recommended-img{
+    width: 256px;
+    height: 128px;
+}  
 footer {
     height: 7%;
     background-color: #FFFFFF;
