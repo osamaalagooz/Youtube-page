@@ -18,7 +18,7 @@ body {
 }
 header{
     width: 100%;
-    height: 8%;
+    height: 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -27,7 +27,7 @@ header{
     background-color: #FFFFFF;
     margin-bottom: 20px;
     
-    position: fixed;
+    
 }
 header input[type=search] {
     width : 400px;
@@ -74,13 +74,49 @@ header input[type=submit] {
 .recomended-vidoes {
     flex-grow: 1;
     flex-basis: auto;
-    background-color: #FFFFFF;
+    background-color: #F1F1F1;
     height: 100%;
     margin-right: 10px;
+    
+}
+.recomended-vidoes > p {
+    margin: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: #FFFFFF;
+}
+.recomended-vid {
+    height: 130px;
+    clear: both;
+    margin: 10px 0px;
+    background-color: #FFFFFF;
+    width: 90%;
+    
 }
 .recommended-img{
+    clear: left;
     height : 128px;
     width : 256px;
+    float: left;
+}
+.recommended-img img {
+    object-fit: contain;
+    width: inherit;
+    height: inherit;
+}
+.recommended-video-descript {
+    
+    width: 200px;
+    float: left;
+}
+.recommended-video-descript > p {
+    font-weight: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.channel-infor{
+    color: #829CCB;
+    font-family: 'Times New Roman', Times, serif
 }
 .video-player {
     flex-grow: 2;
@@ -129,8 +165,12 @@ header input[type=submit] {
  }
 .channel-info p{
    clear: both; 
-   
-   
+     
+}
+#channel-name {
+    font-weight: 150;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 .likes-containeer {
     color: black;
