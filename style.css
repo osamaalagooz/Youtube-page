@@ -196,10 +196,39 @@ header input[type=submit] {
     height: 128px;
 }  
 footer {
-    height: 7%;
+    height: 10%;
     background-color: #FFFFFF;
     margin-top: 20px;
     margin-bottom: 0px;
-
-    
+}
+.footer_img{
+    float: left;
+}
+.footer_btns{
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.footer_nav{
+    clear: both;
+    float: left;
+    margin: 15px 0px 0px 100px;
+}
+.footer_nav li{
+    display: inline-block;
+    text-decoration: none;
+}
+.footer_nav li a{
+    text-decoration: none;
+}
+.footer_nav2{
+    clear: both;
+    float: left;
+    margin: 15px 0px 0px 100px;
+}
+.footer_nav2 li{
+    display: inline-block;
+}
+.footer_nav2 li a{
+    text-decoration: none;
 }
