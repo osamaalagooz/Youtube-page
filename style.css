@@ -18,7 +18,7 @@ body {
 }
 header{
     width: 100%;
-    height: 10%;
+    height: 8%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -26,6 +26,39 @@ header{
     align-items: center;
     background-color: #FFFFFF;
     margin-bottom: 20px;
+    
+    position: fixed;
+}
+header input[type=search] {
+    width : 400px;
+    border-style: groove ;
+    border-color: #F1F1F1 ;
+    border-radius: 4px;
+    height: 30px;
+    box-shadow: 1px;
+    
+}
+header input[type=submit] {
+    width: 55px;
+    height: 30px;
+    box-shadow: 1px;
+    background-color: #F8F8F8;
+    border-style: solid ;
+    border-color: #F1F1F1;
+}
+.logo-container div {
+    display: inline;
+    margin-right: 20px;
+}
+.avater-container div{
+    display: inline;
+}
+.avater-container div a{
+    text-decoration: none;
+    color: #4285F4;
+    line-height: 15px;
+    position: relative;
+    top: -10px;
 }
 .main-page {
     width: 100%;
@@ -74,6 +107,36 @@ header{
     background-color: #FFFF;
     height: 20%;
 }
+#video-title {
+    margin: 20px;
+    font-weight: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.channel-info {
+    width: 300px;
+    margin: 20px;
+}
+.channel-info .img {
+    float: left;
+}
+.channel-info .channel-name{
+    position: relative;
+    height: 70%;
+    width: 200px;
+    
+    float: left;
+    
+ }
+.channel-info p{
+   clear: both; 
+   
+   
+}
+.likes-containeer {
+    color: black;
+    position: sticky;
+}
+
 .description {
     width: 100%;
     background-color: #FFFF;
