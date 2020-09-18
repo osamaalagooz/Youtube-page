@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cd3fef9941.js" crossorigin="anonymous"></script>
     <title>Youtube Page</title>
 </head>
 <body>
     <section class="main-containeer">
         <header>
             <div class="logo-container">
-            <div><img style="width: 30px; height: 30px;" src="https://lh3.googleusercontent.com/proxy/Z21uH2SGFHjTWsy4dpNxBc14h-UHs5Nop4Bo_xAFUYE_Hh2vm8tT8JIV5MozEi0kIqGoc1G1JgNQ_UfqCujpdFGeDxmMxwsVOsh3mU60HhxXa8TTIeM" alt="menu"></div>
+            <div><i class="fas fa-bars"></i></div>
             <div><img style="width: 50px; height: 30px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/YouTube_Logo.svg/640px-YouTube_Logo.svg.png" alt="logo"></div>
             </div>
             <div><form action="">
@@ -40,13 +41,26 @@
                            <div class="img"><img style="width: 70px; height: 70px;" src="https://raw.github.com/eladnava/material-letter-icons/master/dist/png/L.png" alt="avatar"></div>
                            <div class="channel-name">
                            <p id="channel-name">The odin project</p>
-                           <button style="width: 90px; height: 30px; background-color: #FF0000;" type="submit">Subscribe</button><span style="background-color: #FAFAFA;">6,000</span>
+                           <button id="sub-button" type="submit">Subscribe</button>
+                           <p id="sub-num">6,000</p>
                            </div>
-                           <p>50,000 Views</p>                                                   
+                           <p id="num-viwes">50,000 Views</p>                                               
                        </div>
-                           <hr> 
-                       <div class="likes-containeer">
-                   </div>
+                            
+                           
+                       <div class="status-containeer">
+                           <hr>
+                           <div class="share">
+                              <i class="fas fa-share">Share</i>
+                              <i class="fas fa-plus">Add to</i>
+                              <i class="fas fa-ellipsis-h">More</i>
+                           </div>
+                           <div class="like">
+                            <i class="fas fa-thumbs-up">7000</i>
+                            <i class="fas fa-thumbs-down">100</i>
+                           </div>
+
+                       </div>
                </section>
                <section class="description">
                    <h4>Published on Feb 27, 2014</h4>
@@ -58,6 +72,10 @@
                        exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. 
                        You can find more information about that project at http://theodinproject.com.</p>
                    </div>
+                   <br><hr>
+                   <div style="margin:auto; text-align: center;"> 
+                       <i class="fas fa-ellipsis-h" style="margin:auto;">More</i>
+                   </div>
                </section>
                <section class="comments">
                    
@@ -65,8 +83,10 @@
         
             </section>
             <section class="recomended-vidoes">
-
-                <p>Up next</p>
+                 <div class="nxt-vid">
+                <p >Up next</p>
+                <i class="fas fa-toggle-on">Autoplay</i>
+                </div>
                 <div class="recomended-vid">
                     
                     <div class="recommended-img" >
@@ -104,6 +124,7 @@
                         <img src="images/restAPI.jpg" alt="REST APIs and examples">
                     </div>
                     <div class ="recommended-video-descript">
+                        <p>REST API concepts and examples</p>
                         <p class="channel-infor"><small>Webconcepts</small></p>
                         <p class="channel-infor"><small>3,580,220 views</small></p>
                     </div>
